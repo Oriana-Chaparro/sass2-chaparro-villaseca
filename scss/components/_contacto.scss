@@ -1,0 +1,12 @@
+.main-contacto{
+    height: 50vh;
+    div{
+        .contacto-ul{
+            list-style: none;
+            .contacto{
+                text-decoration: none;
+                @extend %color-fs;
+            }
+        }
+    }
+}
